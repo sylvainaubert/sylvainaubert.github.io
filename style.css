@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+/* GENERAL
+------------------------------ */
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400; 
+	color: #333333;
+}
+
+section {
+	margin-top: 10%;
+}
+
+img{
+	margin: 15px;
+}
+
+.card{
+	margin-top: 10px;
+}
+
+
+
+
+/* TYPOGRAPHY
+------------------------------ */
+
+h1 {
+
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	margin-bottom: 5%;
+	
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+h4{
+	font-family:'Lato', sans-serif;
+	font-size: 1em;
+}
+
+.ring{
+	background-color: #666;
+	margin-top: 1%;
+	margin-bottom:1%;
+}
+
+
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400; 
+	color: #505050;
+	font-size: 14px;
+}
+
+.useFAF::placeholder {
+    font-family: "Font Awesome 5 Free" !important;
+		font-weight:900;
+		color:#999;
+		font-size:0.7em
+}
+
+.p-ring{
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+.navbar-button {
+	background-color: white;
+	border: solid 1px transparent;
+	font-size: 14px;
+	padding: 12px 22px;
+	
+}
+
+
+.nav-menu {
+	width: 100%;
+	z-index: 1000;
+	
+}
+
+.navbar-menu {
+	background-color: white;
+	background-image: none;
+	opacity: 1;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+
+	
+
+.img_carousel{
+	margin:0 0;
+	height: auto;
+	width:100%;
+	overflow:hidden;
+	
+}
+
+
+
+.nav-pills{
+	margin-bottom: 4%;
+}
+
+
+
+
+.img_fellows {
+	position:relative;
+	opacity: 0.5;
+	margin:0;
+}
+
+.gandalf_text {
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 4vw;
+	color: white;
+}
+
+.gandalf_reward {
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	position: absolute;
+	top: 2%;
+	left: 50%;
+  
+	transform: translate(-50%);
+	border-radius: 15px;
+	padding: 5px 20px;
+	background-color: #ffffff;
+	opacity: 0.7;
+	text-align: center;
+	font-size: 3vw;
+	color: black;
+}
+
+
+/*---- Hover sur image ----*/
+
+img:hover {
+	opacity: 1;
+}
+
+.gandalf_image:hover .gandalf_reward {
+	display: none;
+}
+
+.gandalf_image:hover .gandalf_text {
+	font-size: 3vw;
+	top: 60%;
+}
+
+
+
+.table {
+	width:95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+}
+
+.img_gollum{
+	border-radius: 50%;
+}
+
+.form_layout{
+	width: 95%
+}
+
+btn{
+	margin: 2%;
+}
+
+footer{
+	margin-top: 5%;
+	background-color:#999;
+}
+
+.li-footer{
+	font-family:'Lato', sans-serif;
+	color: white;
+	font-size: 0.7rem;
+	text-align:center;
+	
+}
+
+
