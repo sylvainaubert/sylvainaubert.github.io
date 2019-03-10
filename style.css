@@ -6,13 +6,14 @@
 ------------------------------ */
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Aniron', sans-serif;
 	font-weight: 400; 
 	color: #333333;
 }
 
 section {
-	margin-top: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 img{
@@ -20,7 +21,16 @@ img{
 }
 
 .card{
-	margin-top: 10px;
+	margin-top: 10px;	
+}
+
+#fellows{
+	background-image:url(img/bg_light.png);
+	background-repeat:repeat;
+}
+
+del{
+	color: #ff5f01;
 }
 
 
@@ -28,25 +38,40 @@ img{
 
 /* TYPOGRAPHY
 ------------------------------ */
+@font-face{
+	font-family:'Aniron';
+	src: url("fonts/anirm___.ttf");
+}
+
+@font-face{
+	font-family:'Tengwar';
+	src: url("fonts/tngani.ttf");
+}
+
+@font-face{
+	font-family:'Party Business';
+	src: url("fonts/partybusiness.ttf");
+}
+
 
 h1 {
 
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Aniron', sans-serif;
+	font-size: 1.6em;
 	text-align:center;
 	margin-bottom: 5%;
 	
 }
 
 h3 {
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+	font-family: 'Party Business', sans-serif;
 }
 
 h4{
-	font-family:'Lato', sans-serif;
+	font-family:'Aniron', sans-serif;
 	font-size: 1em;
 }
 
@@ -59,10 +84,10 @@ h4{
 
 
 p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Party Business', sans-serif;
 	font-weight: 400; 
 	color: #505050;
-	font-size: 14px;
+	
 }
 
 .useFAF::placeholder {
@@ -77,10 +102,27 @@ p{
 	margin-top: 2.5%;
 }
 
+.carousel-text{
+	font-size: 4em;
+}
+
+.carousel-p-texte {
+	font-size: 2em;
+	color: white;
+}
+
+
+.titre-decoration {
+	font-family: 'Tengwar', sans-serif;
+	font-size: 25px;
+	color:#ff5f01;
+}
 
 li {
 	list-style-type: none;
 }
+
+
 
 .navbar-button {
 	background-color: white;
@@ -94,17 +136,27 @@ li {
 .nav-menu {
 	width: 100%;
 	z-index: 1000;
+	font-family: 'Aniron', sans-serif;
+	font-size: 1em;
+	color: white;
+	border-left: 1px solid white;
 	
 }
 
 .navbar-menu {
-	background-color: white;
-	background-image: none;
+	background-color: #ff5f01;
 	opacity: 1;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
-	transition: all 0.2s linear;
+	transition: all 0.2s linear;	
+}
+
+.li-menu {
+	font-family: 'Aniron', sans-serif;
+	font-size: 1em;
+	color: white;
+	border-left: 1px solid white;
 }
 
 
@@ -115,16 +167,23 @@ li {
 	height: auto;
 	width:100%;
 	overflow:hidden;
-	
 }
 
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
 
 
 .nav-pills{
 	margin-bottom: 4%;
 }
 
-
+.card-fellows{
+	background-color: black ;
+	border: 2px solid black;
+}
 
 
 .img_fellows {
@@ -134,7 +193,7 @@ li {
 }
 
 .gandalf_text {
-	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	font-family: 'Party Business',sans-serif; 
 	position: absolute;
 	top: 40%;
 	left: 50%;
@@ -145,11 +204,10 @@ li {
 }
 
 .gandalf_reward {
-	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	font-family: 'Party Business',sans-serif; 
 	position: absolute;
 	top: 2%;
 	left: 50%;
-  
 	transform: translate(-50%);
 	border-radius: 15px;
 	padding: 5px 20px;
@@ -203,7 +261,7 @@ footer{
 }
 
 .li-footer{
-	font-family:'Lato', sans-serif;
+	font-family:'Party Business', sans-serif;
 	color: white;
 	font-size: 0.7rem;
 	text-align:center;
