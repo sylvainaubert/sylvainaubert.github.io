@@ -31,7 +31,9 @@
 					<nav class="navbar navbar-expand-lg fixed-top navbar-menu navbar-light">
         		<div class="container">
             	<!-- Brand -->
- 							<a class="navbar-brand" href="#">Find The Precious</a>
+ 							<a class="navbar-brand" href="#">
+                <img class="img-logo" src="img/logo.png" alt="logo"/>      
+              </a>
               
               <!-- Toggler/collapsibe Button -->
   						<button class="navbar-toggler navbar-button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -130,10 +132,10 @@
     									<div class="gandalf_text">Gandalf</div>
     									<div class="gandalf_reward">reward&nbsp;<span style="color:#ff5f01">1000</span> golden&nbsp;coins</div>
                 		<div class="card-body">
-                			<h4 class="card-title"></h4>
+                			<h4 class="card-title">&nbsp;</h4>
                 			<p class="card-text">A very dangerous wizard, balrogs killer...</p>
-                			
                 		</div>
+                    <div class="card-footer">&nbsp;</div>
                 	</div>
             		</div>
             		<div class="col-sm-6 col-md-4 gandalf_image" >
@@ -142,21 +144,23 @@
     									<div class="gandalf_text">Aragorn</div>
     									<div class="gandalf_reward">reward&nbsp;<span style="color:#ff5f01">800</span> golden&nbsp;coins</div>
                 		<div class="card-body">
-                			<h4 class="card-title"></h4>
+                			<h4 class="card-title">&nbsp;</h4>
                 			<p class="card-text">Sauron's finger says his sword is dangerous...</p>
                 		</div>
+                    <div class="card-footer">&nbsp;</div>
                 	</div>
                 </div>
               
             		<div class="col-sm-6 col-md-4 gandalf_image" >
               		<div class="card card-fellows wanted">
                 		<img class="card-img-top img_fellows h-100" src="img/gimli.png" alt="Reward for Gandalf">
-    									<div class="gandalf_text"><del>gimli</del></div>
-    									<div class="gandalf_reward">&nbsp;<span style="color:#ff5f01">dead</span>&nbsp;</div>
+    									<div class="dead_text">gimli</div>
+    									<div class="dead_reward">&nbsp;<span style="color:#ff5f01">dead</span>&nbsp;</div>
                 		<div class="card-body">
-                			<h4 class="card-title"></h4>
+                			<h4 class="card-title">&nbsp;</h4>
                 			<p class="card-text">a dwarf with a beard and an axe...</p>
                 		</div>
+                    <div class="card-footer">&nbsp;</div>
                 	</div>
                 </div>
             	
@@ -167,41 +171,56 @@
 
     
    <!-- Reward (partie 3)
-    ============================================================== --> 
+    ==============================================================
+     -->
+    <div class="row no-gutters">
+      <div class="col-3" style="background-color: black"></div>
+      <div class="col-6">
+        <hr class="text-center"></div>
+      <div class="col-3" style="background-color: black"></div>
+    </div>
+
     <section id="reward">
-    	<div class="jumbotron h-100 jumbotron-fluid">
+
+    	<div class="jumbotron">
   			<div class="container">
-        	<h2>I have captured one of them, how to get my reward ?</h2>
+        	<h2 class="h2-reward"><span class="titre-decoration">ij</span>&nbsp;I have captured one of them, how to get my reward ?&nbsp;<span class="titre-decoration">ij</span></h2>
         	
           <div class="row justify-content-center">
           	<div class="col-md-8 my-auto">
-        			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel tenetur cumque atque possimus, sunt voluptatibus eum excepturi debitis consequuntur, doloremque, totam ut placeat dolores voluptas similique fuga veniam nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga deleniti voluptatem tempore facilis aut dolores autem illum ad, exercitationem inventore, libero sit eius expedita a illo cupiditate. Dicta, reiciendis.</p>
+        			<p class="p-reward">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel tenetur cumque atque possimus, sunt voluptatibus eum excepturi debitis consequuntur, doloremque, totam ut placeat dolores voluptas similique fuga veniam nam?</p>
             </div>
         		<div class="col-md-4">
             	<div class="row d-flex justify-content-center">
-        				<img src="https://via.placeholder.com/140" alt="reward"/>
+        				<img src="img/coin_sauron.png" alt="reward"/>
               </div>
-              <div class="row d-flex justify-content-center">
-                <button type="button" class="btn btn-outline-secondary">Contact us</button>
-              </div>
-      			</div> 
-        		
+            </div>
+            <div class="row d-flex justify-content-center">
+                <button type="button" class="btn btn-reward">Contact us</button>
+            </div>	
         	</div>
 				</div>
       </div>  
     </section>
+
+    <div class="row no-gutters">
+      <div class="col-3" style="background-color: black"></div>
+      <div class="col-6">
+        <hr class="text-center"></div>
+      <div class="col-3" style="background-color: black"></div>
+    </div>
 
     
    <!-- Best Hunters (partie 4)
    ============================================================== --> 
     
     <section id="best_hunters">
-        <h2>Best hunters</h2>
+        <h2><span class="titre-decoration">ij</span>&nbsp;Best hunters&nbsp;<span class="titre-decoration">ij</span></h2>
         
         <div class="container">
         	<div class="row justify-content-center">
           	<div class="media p-3">
-            	<img src="https://via.placeholder.com/70" alt="elveskiller22"/>
+            	<img src="img/hunter1.png" alt="elveskiller22"/>
             </div>
             <div class="media-body">
               <h3>ElvesKiller22</h3>
@@ -210,7 +229,7 @@
         		</div>
         	
           	<div class="media p-3">
-            	<img src="https://via.placeholder.com/70" alt="elveskiller22"/>
+            	<img src="img/hunter2.png" alt="Goblin45"/>
             </div>
             <div class="media-body">
             	<h3>Goblin45</h3>
@@ -224,17 +243,24 @@
     
    <!-- The Ring - Table (partie 5)
    ============================================================== --> 
+
+    <div class="row no-gutters">
+      <div class="col-3" style="background-color: black"></div>
+      <div class="col-6">
+        <hr class="text-center"></div>
+      <div class="col-3" style="background-color: black"></div>
+    </div>
     
     <section id="the_ring">
-        <h2>About the ring</h2>
+        <h2 class="h2-reward"><span class="titre-decoration">ij</span>&nbsp;About the ring&nbsp;<span class="titre-decoration">ij</span></h2>
         
         <div class="container justify-content-center">
         	
-        		<div class="card">
+        		<div class="card card-ring">
             	<div class="card-header">Ring Capabilities</div>
             		<p class="p-ring">What can our master Sauron do with the ring ?</p>
-            		<table class="table table-bordered">
-               		 <thead class="thead-light"> 
+            		<table class="table">
+               		 <thead> 
                 			<tr>
                   		  	<th>Feature</th>
                     			<th>description</th>
@@ -260,41 +286,56 @@
         		</div>
         
         <div class="container">
-        	<div class="card">
+        	<div class="card card-ring">
           	<div class="card-header">Why the ring is awesome ?</div>
             <div class="row h-100">
-            	<div class="col-6 d-flex justify-content-center align-self-center">
-            	<p>My preciooooooussssss ! Hrk Hrk, we want our preciooooouuusssss !!<br><em>Gollum</em></p>
+            	<div class="col-8 d-flex justify-content-center align-self-center">
+            	<p class="p-gollum">my preciooooooussssss ! Hrk Hrk, we want our preciooooouuusssss !!<br><em>Gollum</em></p>
               </div>
-              <div class="col-6 d-flex justify-content-center align-self-center">
-            	<img class="img_gollum" src="https://via.placeholder.com/110" alt="Gollum's face"/>
+              <div class="col-4 d-flex justify-content-center align-self-center">
+            	<img class="img_gollum" src="img/gollum.png" alt="Gollum's face"/>
             	</div>
         		</div>
         	</div>
         </div>
     </section>
+
+    <div class="row no-gutters">
+      <div class="col-3" style="background-color: black"></div>
+      <div class="col-6">
+        <hr class="text-center"></div>
+      <div class="col-3" style="background-color: black"></div>
+    </div>
     
     
    <!-- Join the Army - Table (partie 6)
    ============================================================== --> 
     
     <section id="join_army">
-        <h2>Join Mordor Army, we need you!</h2>
+        <h2><span class="titre-decoration">ij</span>&nbsp;Join Mordor Army, we need you!&nbsp;<span class="titre-decoration">ij</span></h2>
         
-        <div class="container h-100 justify-content-center">
+        <div class="container h-100">
         	<div class="row justify-content-center">
-          	<div class="col-12 col-md-4 my-auto">
-            	<img src="https://via.placeholder.com/140" alt="join the army"/> 
-        			
+          	<div class="col-12 col-md-8 justify-content-center my-auto">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel tenetur cumque atque possimus, sunt voluptatibus eum excepturi debitis consequuntur, doloremque, totam ut placeat dolores voluptas similique fuga veniam nam? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="col-12 col-md-8 my-auto">
-            	<div class="row justify-content-center">
-        				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel tenetur cumque atque possimus, sunt voluptatibus eum excepturi debitis consequuntur, doloremque, totam ut placeat dolores voluptas similique fuga veniam nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga deleniti voluptatem tempore facilis aut dolores autem illum ad, exercitationem inventore, libero sit eius expedita a illo cupiditate. Dicta, reiciendis.</p>
-            	</div>
-              <div class="row justify-content-center">
-            		<button type="button" class="btn btn-outline-secondary justify-content-center">More info on SauronRulesThemAll.com</button>
-              </div>  
-        		</div>
+            <div class="col-12 col-md-4 text-center">
+            	<img class="img-army" src="img/army.png" alt="join the army"/> 
+            </div>
+          </div>
+        </div> 
+
+        <div class="container h-100">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-4 text-center">
+              <img class="img-army" src="img/weneedyou-1.png" alt="We need you"/> 
+            </div> 
+            <div class="col-12 col-md-8 justify-content-center my-auto">
+              <div class="p-army-info text-center">More info on</div>
+              <div class="text-center">
+              <button type="button" class="btn army-button justify-content-center">SauronRulesThemAll.com</button>
+              </div>
+            </div>
         	</div>
         </div>  
         
@@ -304,61 +345,76 @@
    
    <!-- Contact - Table (partie 7)
    ============================================================== --> 
+
+    <div class="row no-gutters">
+      <div class="col-3" style="background-color: black"></div>
+      <div class="col-6">
+        <hr class="text-center"></div>
+      <div class="col-3" style="background-color: black"></div>
+    </div>
    
     <section id="contact_us">
-        <h2>Contact us</h2>
+        <h2 class="h2-reward"><span class="titre-decoration">ij</span>&nbsp;Contact us&nbsp;<span class="titre-decoration">ij</span></h2>
         
         <div class="container">
-        	<form action="pas_encore.php" method="post">
-						<fieldset class="form-group">
-							<label for="email"></label>
-							<input type="email" id="email"  name="email" class="useFAF form-control" placeholder="&#xf1fa;">
-						</fieldset>
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+        	    <form action="mailer.php" method="post">
+						    <fieldset class="form-group">
+							    <label for="email"></label>
+							    <input type="email" id="email"  name="email" class="useFAF form-control" placeholder="&#xf1fa;">
+						    </fieldset>
 					
-						<fieldset class="form-group">
-							<label for="home"></label>
-							<input type="text" id="home" name="home" class="useFAF form-control" placeholder="&#xf015;">
-						</fieldset>
+						    <fieldset class="form-group">
+							    <label for="home"></label>
+							    <input type="text" id="home" name="home" class="useFAF form-control" placeholder="&#xf015;">
+						    </fieldset>
           
-						<fieldset class="form-group">
-							<select class="custom-select">
-								<option selected>Select...</option>
-                <option value="1">I have seen one of them</option>
-								<option value="2">I want to join your army</option>
-								<option value="3">I have captured one of them</option>
-							</select>
-						</fieldset>
+						    <fieldset class="form-group">
+							    <select class="custom-select">
+							  	  <option selected>Select...</option>
+                    <option value="1">I have seen one of them</option>
+								    <option value="2">I want to join your army</option>
+							    	<option value="3">I have captured one of them</option>
+							    </select>
+						    </fieldset>
             
-						<fieldset class="form-text">
-							<textarea rows="10" name="text" class="useFAF form-control" placeholder="&#xf303;" ></textarea>
-						</fieldset>
+						    <fieldset class="form-text">
+							    <textarea rows="4" name="text" class="useFAF form-control" placeholder="&#xf303;" ></textarea>
+						    </fieldset>
 
-						<button class="btn btn-outline-primary" type="submit">Submit</button>
-
-					</form>
+						    <button class="btn contact-button" type="submit">Submit</button>
+					    </form>
+            </div>
+            <div class="col-md-12 col-lg-6 text-center">
+              <img class="img-map" src="img/map.png" alt="map">
+            </div>
+          </div>
         </div>
         
     </section>
 
     
     
-    <footer class="container">
+    <footer>
+      <div class="container">
         <div class="row justify-content-center align-self-center">
-        	<ul class="col-3 li-footer">
+        	<ul class="col col-md-4 li-footer text-center">
             <li><a href="#">About us</a></li>
             <li><a href="#fellows">Fellows</a></li>
             <li><a href="#join_army">Join the army</a></li>
         	</ul>
-        	<ul class="col-3 li-footer">
+        	<ul class="col col-md-4 li-footer text-center">
             <li><a href="#">FAQ</a></li> 
             <li><a href="#">Reward conditions</a></li>
             <li><a href="#">Legal mention</a></li>
         	</ul>
-        	<ul class="col-3 li-footer">
+        	<ul class="col col-md-4 li-footer text-center">
             <li><a href="#">Sauron4Ever.com</a></li>
             <li><a href="#">Follow him also on twitter</a></li>
         	</ul>
         </div>
+      </div>
     </footer>
     
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

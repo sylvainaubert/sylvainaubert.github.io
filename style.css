@@ -29,9 +29,41 @@ img{
 	background-repeat:repeat;
 }
 
-del{
-	color: #ff5f01;
+
+#reward{
+	background-image: url(img/bg_dark.png);
+	background-repeat: repeat;
 }
+
+#best_hunters{
+	background-image:url(img/bg_light.png);
+	background-repeat:repeat;
+}
+
+#the_ring{
+	background-image:url(img/bg_dark.png);
+	background-repeat:repeat;
+}
+
+#join_army{
+	background-image:url(img/bg_light.png);
+	background-repeat:repeat;
+}
+
+#contact_us{
+	background-image:url(img/bg_dark.png);
+	background-repeat:repeat;
+}
+
+hr{
+	height: 4px;
+	width: 100%;
+	color: #ff5f01;
+	background-color: #ff5f01;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 
 
 
@@ -100,6 +132,7 @@ p{
 .p-ring{
 	margin-left: 2.5%;
 	margin-top: 2.5%;
+	font-size: calc(0.7vw + 16px);
 }
 
 .carousel-text{
@@ -124,8 +157,13 @@ li {
 
 
 
+.img-logo{
+	max-width: 200px;
+	margin: 0px;
+}
+
 .navbar-button {
-	background-color: white;
+	background-color: transparent;
 	border: solid 1px transparent;
 	font-size: 14px;
 	padding: 12px 22px;
@@ -140,6 +178,7 @@ li {
 	font-size: 1em;
 	color: white;
 	border-left: 1px solid white;
+	position: fixed;
 	
 }
 
@@ -177,12 +216,35 @@ li {
 
 
 .nav-pills{
+	font-family: 'Aniron', sans-serif;
+	font-size: 0.9em;
+	color: grey;
+	background-color: transparent;
 	margin-bottom: 4%;
+}
+
+.nav-link{
+	color: grey;
+	background-color: transparent;
+}
+
+.nav-pills .nav-link.active {
+	color: #ff5f01;
+	background-color: transparent;
+	border-bottom: 4px solid #ff5f01;
+	border-radius: Opx;
+	
+
 }
 
 .card-fellows{
 	background-color: black ;
 	border: 2px solid black;
+}
+
+.card-text{
+	font-size: calc(0.8vw + 16px);
+	color: white;
 }
 
 
@@ -218,6 +280,35 @@ li {
 	color: black;
 }
 
+.dead_text {
+	font-family: 'Party Business',sans-serif; 
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 4vw;
+	color: white;
+	text-decoration: line-through;
+	text-decoration-color: #ff5f01;
+}
+
+.dead_reward {
+	font-family: 'Party Business',sans-serif; 
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 15px;
+	padding: 5px 20px;
+	background-color: transparent;
+	opacity: 0.7;
+	text-align: center;
+	font-size: 4vw;
+	color: black;
+	
+}
+
 
 /*---- Hover sur image ----*/
 
@@ -234,6 +325,51 @@ img:hover {
 	top: 60%;
 }
 
+.gandalf_image:hover .dead_reward {
+	display: none;
+}
+
+.gandalf_image:hover .dead_text {
+	font-size: 3vw;
+	top: 60%;
+}
+
+
+/* Jumbotron */
+
+.jumbotron{
+	background-color: transparent;
+	padding-bottom: 0;
+}
+
+.h2-reward{
+	color: white;
+}
+
+.p-reward{
+	color: white;
+	font-size: calc(0.5vw + 14px);
+}
+
+.btn-reward{
+	color: #ff5f01;
+	background-color: white;
+	border-radius: 0px;
+	padding: 20px 40px;
+	margin-top: 15%;
+}
+
+
+.card-header{
+	color: white;
+	background-color: #ff5f01;
+}
+
+.card-ring{
+	border: none;
+	background-color: rgba(255,255,255,0.9);
+}
+
 
 
 .table {
@@ -243,29 +379,83 @@ img:hover {
 	border-radius: 10%;
 }
 
+.table thead th{
+	border-bottom: 2px solid black;
+}
+
+.table tbody td{
+	color: grey;
+}
+
 .img_gollum{
 	border-radius: 50%;
 }
+
+.p-gollum{
+	font-size: calc(0.9vw + 20px);
+	padding-left: 2.5%;
+}
+
+.img-army{
+	max-width: 230px;
+}
+
+.p-army-info{
+	color: #ff5f01;
+	margin-bottom: 2%;
+}
+
+.army-button{
+	font-size: calc(0.7vw +14px);
+	border-radius: 0px;
+	background-color: black;
+	color: #ff5f01;
+	padding: 10px 20px;
+	box-shadow: 5px 5px 5px grey;
+}
+
 
 .form_layout{
 	width: 95%
 }
 
-btn{
-	margin: 2%;
+.contact-button{
+	border-radius: 0px;
+	background-color: #ff5f01;
+	color: black;
+	padding: 20px 40px;
+	margin-top: 2%;
 }
 
+.img-map{
+	max-width: 300px;
+}
+
+
+
 footer{
-	margin-top: 5%;
-	background-color:#999;
+	background-color:#ff5f01;
 }
 
 .li-footer{
-	font-family:'Party Business', sans-serif;
+	font-family:'Aniron', sans-serif;
 	color: white;
-	font-size: 0.7rem;
+	font-size: calc(0.8vw + 12px);
 	text-align:center;
+	margin-top: 3%;
+	line-height: 30px;
 	
+}
+
+li a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover, a:active {
+  color: black;
 }
 
 
