@@ -447,14 +447,14 @@ footer{
 	
 }
 
-li a:link, a:visited {
+li .a-footer:link, .a-footer:visited {
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
-li a:hover, a:active {
+li .a-footer:hover, .a-footer:active {
   color: black;
 }
 
