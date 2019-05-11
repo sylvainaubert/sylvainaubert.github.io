@@ -1,0 +1,26 @@
+@mixin ring ($size, $color) {
+  background-color: transparent;
+  border: $size/10 solid $color;
+  border-radius: 50%;
+  box-shadow: $size/20 $size/20 $size/20 darken($color,10%);
+  width: $size;
+  height: $size;
+  display: inline-block;
+}
+
+@for $i from 1 through 6 {
+  .normalRing-#{$i} {
+    @include ring(20px*$i, black);
+    margin-right: -10px*$i;
+    margin-top: -10px*$i;
+    display: inline-block;
+  }
+}
+
+.littleRing {
+  @include ring(60px, orange);
+}
+
+.bigRing {
+  @include ring(150px, #ffdf0e)
+}

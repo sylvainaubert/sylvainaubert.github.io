@@ -25,34 +25,40 @@ img{
 }
 
 #fellows{
-	background-image:url(img/bg_light.png);
+	background-image:url(../img/bg_light.png);
 	background-repeat:repeat;
 }
 
 
 #reward{
-	background-image: url(img/bg_dark.png);
+	background-image: url(../img/bg_dark.png);
 	background-repeat: repeat;
 }
 
 #best_hunters{
-	background-image:url(img/bg_light.png);
+	background-image:url(../img/bg_light.png);
 	background-repeat:repeat;
 }
 
 #the_ring{
-	background-image:url(img/bg_dark.png);
+	background-image:url(../img/bg_dark.png);
 	background-repeat:repeat;
 }
 
 #join_army{
-	background-image:url(img/bg_light.png);
+	background-image:url(../img/bg_light.png);
 	background-repeat:repeat;
 }
 
 #contact_us{
-	background-image:url(img/bg_dark.png);
+	background-image:url(../img/bg_dark.png);
 	background-repeat:repeat;
+}
+
+#precious{
+	background-image: url(../img/bg_light.png);
+	background-repeat: repeat;
+	height:100vh;
 }
 
 hr{
@@ -72,17 +78,17 @@ hr{
 ------------------------------ */
 @font-face{
 	font-family:'Aniron';
-	src: url("fonts/anirm___.ttf");
+	src: url("../fonts/anirm___.ttf");
 }
 
 @font-face{
 	font-family:'Tengwar';
-	src: url("fonts/tngani.ttf");
+	src: url("../fonts/tngani.ttf");
 }
 
 @font-face{
 	font-family:'Party Business';
-	src: url("fonts/partybusiness.ttf");
+	src: url("../fonts/partybusiness.ttf");
 }
 
 
@@ -232,7 +238,7 @@ li {
 	color: #ff5f01;
 	background-color: transparent;
 	border-bottom: 4px solid #ff5f01;
-	border-radius: Opx;
+	border-radius: 0px;
 	
 
 }
@@ -406,7 +412,7 @@ img:hover {
 }
 
 .army-button{
-	font-size: calc(0.7vw +14px);
+	font-size: calc(0.7vw + 14px);
 	border-radius: 0px;
 	background-color: black;
 	color: #ff5f01;

@@ -1,0 +1,97 @@
+.normalRing-1 {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: -10px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.normalRing-2 {
+    background-color: transparent;
+    border: 4px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: -20px;
+    margin-top: -20px;
+    display: inline-block;
+}
+
+.normalRing-3 {
+    background-color: transparent;
+    border: 6px solid black;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: -30px;
+    margin-top: -30px;
+    display: inline-block;
+}
+
+.normalRing-4 {
+    background-color: transparent;
+    border: 8px solid black;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px black;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-right: -40px;
+    margin-top: -40px;
+    display: inline-block;
+}
+
+.normalRing-5 {
+    background-color: transparent;
+    border: 10px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: -50px;
+    margin-top: -50px;
+    display: inline-block;
+}
+
+.normalRing-6 {
+    background-color: transparent;
+    border: 12px solid black;
+    border-radius: 50%;
+    box-shadow: 6px 6px 6px black;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-right: -60px;
+    margin-top: -60px;
+    display: inline-block;
+}
+
+.littleRing {
+    background-color: transparent;
+    border: 6px solid orange;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #cc8400;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.bigRing {
+    background-color: transparent;
+    border: 15px solid #ffdf0e;
+    border-radius: 50%;
+    box-shadow: 7.5px 7.5px 7.5px #dabd00;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
